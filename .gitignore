@@ -1,0 +1,6 @@
+node_modules/
+functions/
+aucti-api/
+serviceAccountKey.json
+package-lock.json
+garbage.txt

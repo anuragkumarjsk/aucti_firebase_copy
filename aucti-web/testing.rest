@@ -1,0 +1,46 @@
+POST http://localhost:9000/.netlify/functions/api/bids
+Content-Type: application/json
+
+{
+    "user_id": "xzhZQNkWW8fGsj44xE4DpY47dOJ2",
+    "product_id":"dJMUEZwfmPLCIPAN9nMU",
+    "bid_price":"00007"
+}
+
+###
+GET  http://localhost:9000/.netlify/functions/api/bids/xzhZQNkWW8fGsj44xE4DpY47dOJ2
+
+###
+PUT http://localhost:9000/.netlify/functions/api/bids/QM2xzrXT0J9OjL7WtRdy
+Content-Type: application/json
+
+{
+    "bid_price": "00008",
+    "id": "QM2xzrXT0J9OjL7WtRdy",
+}
+###
+
+    "product_id": "dJMUEZwfmPLCIPAN9nMU",
+    "user_id": "xzhZQNkWW8fGsj44xE4DpY47dOJ2",
+    "id": "QM2xzrXT0J9OjL7WtRdy",
+    "product": {
+      "title": "A Table Décor Telescope Vintage Marine Gift Functional Instrument Collectibles Gift Item (Brass Antique + Leather)",
+      "base_price": "58997",
+      "auction_status": "draft"
+    }
+###
+GET http://localhost:9000/.netlify/functions/api/products/product/dJMUEZwfmPLCIPAN9nMU,xzhZQNkWW8fGsj44xE4DpY47dOJ2
+
+###
+GET http://localhost:9000/.netlify/functions/api/products/product/dJMUEZwfmPLCIPAN9nMU,xzhZQNkWW8fGsj44xE4DpY47dOJ2 
+
+###
+
+DELETE http://localhost:9000/.netlify/functions/api/wishlists/j5wGMQftB0R9BQo8srok
+###
+GET http://localhost:9000/.netlify/functions/api/products/00pGEQquaj22cOCRBMP0
+###
+GET http://localhost:9000/.netlify/functions/api/products/all/1,4
+###
+GET http://localhost:9000/.netlify/functions/api/bids/insights/Y5GKMqOHnoSEmEpwtCJBLXcN2sB3
+###
