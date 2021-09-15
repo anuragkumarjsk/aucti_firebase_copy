@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[12],{222:function(t,c,e){"use strict";e.r(c);e(2);var r=e(1);c.default=function(t){return Object(r.jsx)(r.Fragment,{children:Object(r.jsx)("img",{src:t.src,className:"object-cover object-center h-40 pb-4",onLoad:t.onLoad,onError:t.onError,alt:t.alt})})}}}]);
+//# sourceMappingURL=12.99929804.chunk.js.map
